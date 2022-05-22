@@ -412,7 +412,7 @@
   border: 10px solid #000000;
   border-radius: 50%;
 }
-img{
+.whoami{
   width: 400px;
 
   clip-path: circle();
