@@ -414,7 +414,7 @@
 }
 .whoami{
   width: 400px;
-
+  max-width: 100%;
   clip-path: circle();
 }
 
