@@ -431,6 +431,9 @@
 
 /* Mobile Responsive */
 @media screen and (max-width: 1100px) {
+  html,body{
+    overflow-x:hidden;
+  }
   .main__container {
     display: grid;
     grid-template-columns: 1fr;
