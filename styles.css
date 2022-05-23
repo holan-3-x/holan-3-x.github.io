@@ -719,6 +719,9 @@
   .social__media--wrap {
     flex-direction: column;
   }
+  .social__icons {
+    width: 337px;
+  }
 }
 
 @media screen and (max-width: 480px) {
