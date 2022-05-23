@@ -722,6 +722,10 @@
   .social__icons {
     width: 337px;
   }
+  .footer__link--items h2{
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 @media screen and (max-width: 480px) {
