@@ -499,11 +499,7 @@
     padding: 12px 36px;
     margin: 2.5rem 0;
   }
-  .Life h1 {
-    font-size:;
-    word-wrap: break-word;
-    word-break: break-word;
-  }
+
 }
 
 /* Life Section */
@@ -620,6 +616,11 @@
 @media screen and (max-width: 768px) {
   .Life__wrapper {
     grid-template-columns: 1fr;
+  }
+    .Life h1 {
+    font-size:28px;
+    word-wrap: break-word;
+    word-break: break-word;
   }
 }
 
