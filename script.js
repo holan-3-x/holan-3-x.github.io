@@ -52,4 +52,15 @@ const hideMobileMenu = () => {
 menuLinks.addEventListener('click', hideMobileMenu);
 navLogo.addEventListener('click', hideMobileMenu);
 
-
+/*Radio icon player*/
+var station =document.getElementById("station");
+var icon = document.getElementById("player");
+icon.onclick=function(){
+if(station.paused){
+  station.play();
+  icon.src="pause.png";
+}else{
+  station.pause();
+  icon.src="play.png";
+}
+}
