@@ -58,9 +58,9 @@ var icon = document.getElementById("player");
 icon.onclick=function(){
 if(station.paused){
   station.play();
-  icon.src="pause.png";
+  icon.src="img/pause.png";
 }else{
   station.pause();
-  icon.src="play.png";
+  icon.src="img/play.png";
 }
 }
