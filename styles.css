@@ -782,3 +782,10 @@
     font-size: 2.5rem;
     text-align: center;
   }
+@media screen and (max-width: 768px) {
+  .My__Radio h2 {
+    font-size:28px;
+    word-wrap: break-word;
+    word-break: break-word;
+  }
+}
